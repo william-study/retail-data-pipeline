@@ -1,0 +1,234 @@
+[
+  {
+    "VentaID": 1,
+    "ClienteID": 1,
+    "ProductoID": 5,
+    "Cantidad": 4,
+    "PrecioVenta": 3400.00,
+    "FechaVenta": "2026-08-30T00:00:00"
+  },
+  {
+    "VentaID": 2,
+    "ClienteID": 2,
+    "ProductoID": 4,
+    "Cantidad": 2,
+    "PrecioVenta": 1000.00,
+    "FechaVenta": "2026-08-17T00:00:00"
+  },
+  {
+    "VentaID": 3,
+    "ClienteID": 3,
+    "ProductoID": 5,
+    "Cantidad": 2,
+    "PrecioVenta": 1700.00,
+    "FechaVenta": "2026-09-03T00:00:00"
+  },
+  {
+    "VentaID": 4,
+    "ClienteID": 4,
+    "ProductoID": 1,
+    "Cantidad": 2,
+    "PrecioVenta": 2401.00,
+    "FechaVenta": "2026-08-22T00:00:00"
+  },
+  {
+    "VentaID": 5,
+    "ClienteID": 5,
+    "ProductoID": 3,
+    "Cantidad": 2,
+    "PrecioVenta": 90.00,
+    "FechaVenta": "2026-08-14T00:00:00"
+  },
+  {
+    "VentaID": 6,
+    "ClienteID": 6,
+    "ProductoID": 4,
+    "Cantidad": 3,
+    "PrecioVenta": 1500.00,
+    "FechaVenta": "2026-09-13T00:00:00"
+  },
+  {
+    "VentaID": 7,
+    "ClienteID": 7,
+    "ProductoID": 2,
+    "Cantidad": 10,
+    "PrecioVenta": 250.00,
+    "FechaVenta": "2026-09-13T00:00:00"
+  },
+  {
+    "VentaID": 8,
+    "ClienteID": 8,
+    "ProductoID": 3,
+    "Cantidad": 8,
+    "PrecioVenta": 360.00,
+    "FechaVenta": "2026-08-14T00:00:00"
+  },
+  {
+    "VentaID": 9,
+    "ClienteID": 9,
+    "ProductoID": 3,
+    "Cantidad": 5,
+    "PrecioVenta": 225.00,
+    "FechaVenta": "2026-09-07T00:00:00"
+  },
+  {
+    "VentaID": 10,
+    "ClienteID": 5,
+    "ProductoID": 1,
+    "Cantidad": 4,
+    "PrecioVenta": 4802.00,
+    "FechaVenta": "2026-08-11T00:00:00"
+  },
+  {
+    "VentaID": 11,
+    "ClienteID": 1,
+    "ProductoID": 4,
+    "Cantidad": 1,
+    "PrecioVenta": 500.00,
+    "FechaVenta": "2026-08-19T00:00:00"
+  },
+  {
+    "VentaID": 12,
+    "ClienteID": 2,
+    "ProductoID": 5,
+    "Cantidad": 2,
+    "PrecioVenta": 1700.00,
+    "FechaVenta": "2026-08-15T00:00:00"
+  },
+  {
+    "VentaID": 13,
+    "ClienteID": 3,
+    "ProductoID": 1,
+    "Cantidad": 1,
+    "PrecioVenta": 1200.50,
+    "FechaVenta": "2026-09-11T00:00:00"
+  },
+  {
+    "VentaID": 14,
+    "ClienteID": 4,
+    "ProductoID": 3,
+    "Cantidad": 4,
+    "PrecioVenta": 180.00,
+    "FechaVenta": "2026-09-11T00:00:00"
+  },
+  {
+    "VentaID": 15,
+    "ClienteID": 5,
+    "ProductoID": 5,
+    "Cantidad": 5,
+    "PrecioVenta": 4250.00,
+    "FechaVenta": "2026-09-01T00:00:00"
+  },
+  {
+    "VentaID": 16,
+    "ClienteID": 6,
+    "ProductoID": 2,
+    "Cantidad": 8,
+    "PrecioVenta": 200.00,
+    "FechaVenta": "2026-08-26T00:00:00"
+  },
+  {
+    "VentaID": 17,
+    "ClienteID": 7,
+    "ProductoID": 4,
+    "Cantidad": 3,
+    "PrecioVenta": 1500.00,
+    "FechaVenta": "2026-09-11T00:00:00"
+  },
+  {
+    "VentaID": 18,
+    "ClienteID": 8,
+    "ProductoID": 1,
+    "Cantidad": 3,
+    "PrecioVenta": 3601.50,
+    "FechaVenta": "2026-09-14T00:00:00"
+  },
+  {
+    "VentaID": 19,
+    "ClienteID": 9,
+    "ProductoID": 1,
+    "Cantidad": 2,
+    "PrecioVenta": 2401.00,
+    "FechaVenta": "2026-08-08T00:00:00"
+  },
+  {
+    "VentaID": 20,
+    "ClienteID": 6,
+    "ProductoID": 4,
+    "Cantidad": 2,
+    "PrecioVenta": 1000.00,
+    "FechaVenta": "2026-08-07T00:00:00"
+  },
+  {
+    "VentaID": 21,
+    "ClienteID": 1,
+    "ProductoID": 2,
+    "Cantidad": 7,
+    "PrecioVenta": 175.00,
+    "FechaVenta": "2026-08-31T00:00:00"
+  },
+  {
+    "VentaID": 22,
+    "ClienteID": 2,
+    "ProductoID": 5,
+    "Cantidad": 1,
+    "PrecioVenta": 850.00,
+    "FechaVenta": "2026-09-14T00:00:00"
+  },
+  {
+    "VentaID": 23,
+    "ClienteID": 3,
+    "ProductoID": 3,
+    "Cantidad": 6,
+    "PrecioVenta": 270.00,
+    "FechaVenta": "2026-08-21T00:00:00"
+  },
+  {
+    "VentaID": 24,
+    "ClienteID": 4,
+    "ProductoID": 1,
+    "Cantidad": 3,
+    "PrecioVenta": 3601.50,
+    "FechaVenta": "2026-09-02T00:00:00"
+  },
+  {
+    "VentaID": 25,
+    "ClienteID": 10,
+    "ProductoID": 2,
+    "Cantidad": 3,
+    "PrecioVenta": 75.00,
+    "FechaVenta": "2026-09-08T00:00:00"
+  },
+  {
+    "VentaID": 26,
+    "ClienteID": 11,
+    "ProductoID": 5,
+    "Cantidad": 2,
+    "PrecioVenta": 1700.00,
+    "FechaVenta": "2026-08-17T00:00:00"
+  },
+  {
+    "VentaID": 27,
+    "ClienteID": 12,
+    "ProductoID": 1,
+    "Cantidad": 4,
+    "PrecioVenta": 4802.00,
+    "FechaVenta": "2026-08-03T00:00:00"
+  },
+  {
+    "VentaID": 28,
+    "ClienteID": 13,
+    "ProductoID": 3,
+    "Cantidad": 5,
+    "PrecioVenta": 225.00,
+    "FechaVenta": "2026-09-15T00:00:00"
+  },
+  {
+    "VentaID": 29,
+    "ClienteID": 14,
+    "ProductoID": 4,
+    "Cantidad": 2,
+    "PrecioVenta": 1000.00,
+    "FechaVenta": "2026-09-02T00:00:00"
+  }
+]

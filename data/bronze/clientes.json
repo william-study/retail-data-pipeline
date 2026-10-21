@@ -1,0 +1,86 @@
+[
+  {
+    "ClienteID": 1,
+    "Nombre": "Juan Pérez",
+    "Email": "juan.perez@gmail.com",
+    "FechaRegistro": "2026-01-15T00:00:00"
+  },
+  {
+    "ClienteID": 2,
+    "Nombre": "María López",
+    "Email": "maria.lopez@hotmail.com",
+    "FechaRegistro": "2026-02-10T00:00:00"
+  },
+  {
+    "ClienteID": 3,
+    "Nombre": "William Padilla",
+    "Email": "william.padilla@hotmail.com",
+    "FechaRegistro": "2026-01-02T00:00:00"
+  },
+  {
+    "ClienteID": 4,
+    "Nombre": "Roberto Guzman",
+    "Email": "roberto.guzman@outlook.com",
+    "FechaRegistro": "2026-04-13T00:00:00"
+  },
+  {
+    "ClienteID": 5,
+    "Nombre": "Andrea Martinez",
+    "Email": "andrea.martinez@gmail.com",
+    "FechaRegistro": "2026-03-05T00:00:00"
+  },
+  {
+    "ClienteID": 6,
+    "Nombre": "Christian Gutierrez",
+    "Email": "christian.gutierrez@hotmail.com",
+    "FechaRegistro": "2026-02-20T00:00:00"
+  },
+  {
+    "ClienteID": 7,
+    "Nombre": "Carmen Maldonado",
+    "Email": "carmen.maldonado@gmail.com",
+    "FechaRegistro": "2026-05-03T00:00:00"
+  },
+  {
+    "ClienteID": 8,
+    "Nombre": "Teresa Muñoz",
+    "Email": "teresa.muñoz@outlook.com",
+    "FechaRegistro": "2026-01-21T00:00:00"
+  },
+  {
+    "ClienteID": 9,
+    "Nombre": "Eduardo Ramos",
+    "Email": "eduardo.ramos@outlook.com",
+    "FechaRegistro": "2026-04-07T00:00:00"
+  },
+  {
+    "ClienteID": 10,
+    "Nombre": "Christian Gutierrez",
+    "Email": null,
+    "FechaRegistro": "2026-05-15T00:00:00"
+  },
+  {
+    "ClienteID": 11,
+    "Nombre": "Andrea Martinez",
+    "Email": "andrea_martinez123@gmail.com",
+    "FechaRegistro": "2026-05-12T00:00:00"
+  },
+  {
+    "ClienteID": 12,
+    "Nombre": "Jose Rivera",
+    "Email": null,
+    "FechaRegistro": "2026-07-22T00:00:00"
+  },
+  {
+    "ClienteID": 13,
+    "Nombre": "Cesar Hinostroza",
+    "Email": "c.hinostroza@hotmail.com",
+    "FechaRegistro": "2026-02-20T00:00:00"
+  },
+  {
+    "ClienteID": 14,
+    "Nombre": "Raul Espinoza",
+    "Email": null,
+    "FechaRegistro": "2026-03-15T00:00:00"
+  }
+]
