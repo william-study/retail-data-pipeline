@@ -49,11 +49,10 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
 
 ## 📊 Resultados Gold
 Ejemplos de métricas generadas:
-- Ventas por categoría:  
-  - Electrónica → 42,909.5  
-  - Accesorios → 2,050  
-- Top clientes: listado ordenado por gasto total.  
-- Productos más vendidos: listado ordenado por cantidad.
+
+![Ventas por categoría](Ventas%20por%20categoría.PNG)
+![Top clientes](Top%20clientes%20por%20gasto.PNG)
+![Productos más vendidos](Productos%20más%20vendidos.PNG)
 
 ---
 
