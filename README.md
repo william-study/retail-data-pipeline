@@ -50,9 +50,9 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
 ## 📊 Resultados Gold
 Ejemplos de métricas generadas:
 
-![Ventas por categoría](Ventas%20por%20categoría.PNG)
-![Top clientes](Top%20clientes%20por%20gasto.PNG)
-![Productos más vendidos](Productos%20más%20vendidos.PNG)
+![Ventas por categoría](docs/Ventas%20por%20categoría.PNG)
+![Top clientes](docs/Top%20clientes%20por%20gasto.PNG)
+![Productos más vendidos](docs/Productos%20más%20vendidos.PNG)
 
 ---
 
