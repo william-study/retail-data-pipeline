@@ -27,15 +27,32 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
   - **Ventas Silver**: integridad referencial con clientes y productos, cálculo de columna `Total`.
 - Pruebas locales con **pandas** (pendiente).
 
-### 4. Orquestación
-- **Airflow (Docker)**: DAG para automatizar Bronze → Silver → Gold (pendiente).
-- **Azure Data Factory**: pipeline de integración con Databricks (pendiente).
-
-### 5. Almacenamiento (Gold Layer)
+### 4. Almacenamiento (Gold Layer)
 - Tablas finales listas para consumo:
   - `ventas_categoria`: ventas agregadas por categoría.
   - `top_clientes`: clientes con mayor gasto.
   - `productos_mas_vendidos`: productos más vendidos por cantidad.
+    
+### 5. Orquestación con Azure Data Factory
+- Se implementó un pipeline en Azure Data Factory para ejecutar de forma secuencial los notebooks de Azure Databricks:
+
+  - **Bronze → Silver → Gold**
+
+- El pipeline utiliza:
+  - `Linked Service Azure Databricks`
+  - `Personal Access Token (PAT)`
+  - `Cluster interactivo`
+  - `Dependencias por Success`
+
+- **Evidencia**
+
+![Pipeline Retail Datalakehouse](docs/datafactory/Pipeline%20Retail%20Datalakehouse.PNG)
+![Success Retail Datalakehouse](docs/datafactory/Success%20Retail%20Datalakehouse.PNG)
+![Bronze](docs/datafactory/Bronze.PNG)
+![Silver](docs/datafactory/Silver.PNG)
+![Gold](docs/datafactory/Gold.PNG)
+
+- **Airflow (Docker)**: DAG para automatizar Bronze → Silver → Gold (pendiente).
 
 ### 6. Visualización y análisis
 - Conexión de Power BI a Databricks (pendiente).
