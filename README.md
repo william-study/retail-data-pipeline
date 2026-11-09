@@ -25,7 +25,7 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
   - **Clientes Silver**: eliminación de duplicados, último registro por fecha, correos válidos.
   - **Productos Silver**: precios > 0 y nombres no nulos.
   - **Ventas Silver**: integridad referencial con clientes y productos, cálculo de columna `Total`.
-- Pruebas locales con **pandas** (pendiente).
+- Pruebas locales realizadas con **pandas** para validación de estructura, nulos y duplicados.
 
 ### 4. Almacenamiento (Gold Layer)
 - Tablas finales listas para consumo:
@@ -74,10 +74,10 @@ Ejemplos de métricas generadas:
 ---
 
 ## 🚀 Próximos pasos
-- Completar pruebas locales con pandas.  
-- Implementar DAG en Airflow y pipeline en Data Factory.  
-- Crear dashboards en Power BI.  
-- Documentar todo en GitHub con screenshots.
+- Implementar DAG en Apache Airflow.  
+- Conectar Power BI a las tablas Gold.  
+- Crear dashboard de ventas y métricas de negocio.  
+- Completar documentación final del proyecto.
 
 ---
 
