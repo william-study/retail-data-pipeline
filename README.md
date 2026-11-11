@@ -14,7 +14,7 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
 - VS Code con extensión MSSQL
 - GitHub para versionar el proyecto
 - Power BI para visualización
-- Airflow en Docker (pendiente de integración)
+- Airflow en Docker
 
 ### 2. Ingesta de datos (Bronze Layer)
 - Archivos fuente: `clientes.json`, `ventas.json`, `productos.csv`
@@ -43,6 +43,8 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
   - `Personal Access Token (PAT)`
   - `Cluster interactivo`
   - `Dependencias por Success`
+ 
+- Resultado: ejecución secuencial exitosa de las capas Bronze, Silver y Gold.
 
 - **Evidencia**
 
@@ -52,13 +54,22 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
 ![Silver](docs/datafactory/Silver.PNG)
 ![Gold](docs/datafactory/Gold.PNG)
 
-- **Airflow (Docker)**: DAG para automatizar Bronze → Silver → Gold (pendiente).
+### 6. Orquestación con Apache Airflow
+- Se implementó un DAG en Apache Airflow para modelar la ejecución secuencial de una arquitectura Medallion.
 
-### 6. Visualización y análisis
+  - Bronze ↓ Silver ↓ Gold
+
+- El DAG fue desplegado y ejecutado sobre una instancia local de Airflow utilizando Docker.
+
+- **Evidencia**
+
+![airflow pipeline](docs/airflow/airflow_pipeline.PNG)
+
+### 7. Visualización y análisis
 - Conexión de Power BI a Databricks (pendiente).
 - Dashboards con KPIs: ventas por categoría, top clientes, productos más vendidos.
 
-### 7. Control de versiones y documentación
+### 8. Control de versiones y documentación
 - Repositorio GitHub con notebooks, datos y documentación.
 - Este README describe cada fase y resultados.
 
@@ -73,8 +84,7 @@ Ejemplos de métricas generadas:
 
 ---
 
-## 🚀 Próximos pasos
-- Implementar DAG en Apache Airflow.  
+## 🚀 Próximos pasos  
 - Conectar Power BI a las tablas Gold.  
 - Crear dashboard de ventas y métricas de negocio.  
 - Completar documentación final del proyecto.
