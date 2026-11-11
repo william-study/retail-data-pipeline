@@ -25,17 +25,34 @@ El objetivo es demostrar habilidades en **ingesta, transformación, almacenamien
   - **Clientes Silver**: eliminación de duplicados, último registro por fecha, correos válidos.
   - **Productos Silver**: precios > 0 y nombres no nulos.
   - **Ventas Silver**: integridad referencial con clientes y productos, cálculo de columna `Total`.
-- Pruebas locales con **pandas** (pendiente).
+- Pruebas locales realizadas con **pandas** para validación de estructura, nulos y duplicados.
 
-### 4. Orquestación
-- **Airflow (Docker)**: DAG para automatizar Bronze → Silver → Gold (pendiente).
-- **Azure Data Factory**: pipeline de integración con Databricks (pendiente).
-
-### 5. Almacenamiento (Gold Layer)
+### 4. Almacenamiento (Gold Layer)
 - Tablas finales listas para consumo:
   - `ventas_categoria`: ventas agregadas por categoría.
   - `top_clientes`: clientes con mayor gasto.
   - `productos_mas_vendidos`: productos más vendidos por cantidad.
+    
+### 5. Orquestación con Azure Data Factory
+- Se implementó un pipeline en Azure Data Factory para ejecutar de forma secuencial los notebooks de Azure Databricks:
+
+  - **Bronze → Silver → Gold**
+
+- El pipeline utiliza:
+  - `Linked Service Azure Databricks`
+  - `Personal Access Token (PAT)`
+  - `Cluster interactivo`
+  - `Dependencias por Success`
+
+- **Evidencia**
+
+![Pipeline Retail Datalakehouse](docs/datafactory/Pipeline%20Retail%20Datalakehouse.PNG)
+![Success Retail Datalakehouse](docs/datafactory/Success%20Retail%20Datalakehouse.PNG)
+![Bronze](docs/datafactory/Bronze.PNG)
+![Silver](docs/datafactory/Silver.PNG)
+![Gold](docs/datafactory/Gold.PNG)
+
+- **Airflow (Docker)**: DAG para automatizar Bronze → Silver → Gold (pendiente).
 
 ### 6. Visualización y análisis
 - Conexión de Power BI a Databricks (pendiente).
@@ -57,10 +74,10 @@ Ejemplos de métricas generadas:
 ---
 
 ## 🚀 Próximos pasos
-- Completar pruebas locales con pandas.  
-- Implementar DAG en Airflow y pipeline en Data Factory.  
-- Crear dashboards en Power BI.  
-- Documentar todo en GitHub con screenshots.
+- Implementar DAG en Apache Airflow.  
+- Conectar Power BI a las tablas Gold.  
+- Crear dashboard de ventas y métricas de negocio.  
+- Completar documentación final del proyecto.
 
 ---
 
